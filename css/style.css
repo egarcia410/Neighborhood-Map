@@ -1,0 +1,41 @@
+#map{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#infoWindow{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#venue-list {
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+    height: 600px;
+    width: 170px;
+    overflow: scroll;
+    font-weight: 700;
+}
+
+#toggle-venue {
+    color: white;
+    width: 170px;
+    background-color: #F7B733;
+    border-color: #F7B733;
+}
+
+#venue-item {
+    background: white;
+    color: black;
+}
+
+#venue-item:hover {
+    background-color: #4ABDAC;
+    color: white;
+}
+
+
